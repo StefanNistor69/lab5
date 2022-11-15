@@ -59,7 +59,8 @@ public class Main {
                             }
                             if(randomWorker == 1){
                                 exp.Experienced();
-                                System.out.println("Customer satisfaction was good");
+                                System.out.println("Customer satisfaction was good and the customer tipped " + Gaming_PC_1.getPrice()/10);
+                                profit += Gaming_PC_1.getPrice()/10;
                             }else{
                                 noob.New();
                                 System.out.println("Customer was unsatisfied and refunded: " + Gaming_PC_1.getPrice());
@@ -79,7 +80,8 @@ public class Main {
                             }
                             if(randomWorker == 1){
                                 exp.Experienced();
-                                System.out.println("Customer satisfaction was good");
+                                System.out.println("Customer satisfaction was good and the customer tipped " + Gaming_PC_2.getPrice()/10);
+                                profit += Gaming_PC_2.getPrice()/10;
                             }else{
                                 noob.New();
                                 System.out.println("Customer was unsatisfied and refunded: " + Gaming_PC_2.getPrice());
@@ -99,7 +101,8 @@ public class Main {
                             }
                             if(randomWorker == 1){
                                 exp.Experienced();
-                                System.out.println("Customer satisfaction was good");
+                                System.out.println("Customer satisfaction was good and the customer tipped " + Gaming_PC_3.getPrice()/10);
+                                profit += Gaming_PC_3.getPrice()/10;
                             }else{
                                 noob.New();
                                 System.out.println("Customer was unsatisfied and refunded: " + Gaming_PC_3.getPrice());
@@ -118,7 +121,8 @@ public class Main {
                             }
                             if(randomWorker == 1){
                                 exp.Experienced();
-                                System.out.println("Customer satisfaction was good");
+                                System.out.println("Customer satisfaction was good and the customer tipped " + Office_PC_1.getPrice()/10);
+                                profit += Office_PC_1.getPrice()/10;
                             }else{
                                 noob.New();
                                 System.out.println("Customer was unsatisfied and refunded: " + Office_PC_1.getPrice());
@@ -137,7 +141,8 @@ public class Main {
                             }
                             if(randomWorker == 1){
                                 exp.Experienced();
-                                System.out.println("Customer satisfaction was good");
+                                System.out.println("Customer satisfaction was good and the customer tipped " + Office_PC_2.getPrice()/10);
+                                profit += Office_PC_2.getPrice()/10;
                             }else{
                                 noob.New();
                                 System.out.println("Customer was unsatisfied and refunded: " + Office_PC_2.getPrice());
@@ -157,7 +162,8 @@ public class Main {
                             }
                             if(randomWorker == 1){
                                 exp.Experienced();
-                                System.out.println("Customer satisfaction was good");
+                                System.out.println("Customer satisfaction was good and the customer tipped " + Office_PC_3.getPrice()/10);
+                                profit += Office_PC_3.getPrice()/10;
                             }else{
                                 noob.New();
                                 System.out.println("Customer was unsatisfied and refunded: " + Office_PC_3.getPrice());
@@ -176,7 +182,7 @@ public class Main {
                 int monthlyProfit =  profit / 12;
                 int monthlyCost =  costs / 12;
 
-                System.out.println("Work day ended");
+                System.out.println("Simulation ended");
 
                 System.out.println("Final profit : " + profit);
                 System.out.println("Final costs : " + costs);
